@@ -1,6 +1,7 @@
 import {StyleSheet, View, Text, Button,  } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
+import contact from './contact'
 
 const index = () => {
   return (
@@ -11,7 +12,7 @@ const index = () => {
       }}>Home</Text>
       <Link style={{
         fontSize : 20,
-      }} href={'contact'}>Contact</Link>
+      }} href={'/contact'}>contact</Link>
     </View>
     
     
@@ -29,3 +30,6 @@ const style = StyleSheet.create({
 })
 
 export default index
+
+
+
